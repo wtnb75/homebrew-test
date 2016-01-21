@@ -1,4 +1,4 @@
-cask :v1 => 'rakutenkobo' do
+cask 'rakutenkobo' do
   url 'http://download.kobobooks.com/desktop/RakutenBooks/KoboSetup.dmg'
   homepage 'http://kobo.rakuten.co.jp/application/'
   version '3.5.2'

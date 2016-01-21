@@ -1,4 +1,4 @@
-cask :v1 => 'ldd' do
+cask 'ldd' do
   url 'http://cache.lego.com/downloads/ldd2.0/installer/setupLDD-MAC-4_3_8.zip'
   homepage 'http://ldd.lego.com/'
   version '4.3.8'

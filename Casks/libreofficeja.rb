@@ -1,4 +1,4 @@
-cask :v1 => 'libreofficeja' do
+cask 'libreofficeja' do
   url 'http://download.documentfoundation.org/libreoffice/stable/5.0.4/mac/x86_64/LibreOffice_5.0.4_MacOS_x86-64_langpack_ja.dmg'
   homepage 'http://ja.libreoffice.org/'
   version '5.0.4'
