@@ -5,10 +5,10 @@ class S3fsOsxfuse < Formula
 
   stable do
     url "https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.78.tar.gz"
-    sha1 "613b448d84451400d3ee14aa9104ba6d9e90bd0b"
+    sha256 "adbbd92faaed071d90c2016cb7d53aeda017c99ab91ea5dd08f3906afb2d1b8e"
     patch do
       url "https://gist.githubusercontent.com/wtnb75/160909c2b1a37c6d9d0d/raw/5effbb50e1e58f60581c4b94e02ba98a9a86b407/s3fs-fuse-1.78-osxfuse.patch"
-      sha1 "0857abb60e8fde067192bd8d41596fba9ed47fd5"
+      sha256 "d485c2959e537c56750186a019a8cd02df91fe4ee7577ef54771120028a08f75"
     end
   end
 

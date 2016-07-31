@@ -2,7 +2,7 @@ require "formula"
 
 class Randgen < Formula
   url "https://gist.githubusercontent.com/wtnb75/8836dac904f53dcff7dc/raw/d54b3303cd658761b150fce763f45155345397cc/randgen.c"
-  sha1 "943e3f75da8e9d932f907c3e8538b25b79c87912"
+  sha256 "cfec5bf16042aaf6a051cec50abf7b6929b840c10b2c529493c321ce46794b1b"
   version "0.0.0"
 
   def install
