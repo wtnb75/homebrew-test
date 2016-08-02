@@ -1,8 +1,8 @@
 cask 'libreofficeja' do
-  url 'http://download.documentfoundation.org/libreoffice/stable/5.1.0/mac/x86_64/LibreOffice_5.1.0_MacOS_x86-64_langpack_ja.dmg'
+  url 'http://download.documentfoundation.org/libreoffice/stable/5.1.4/mac/x86_64/LibreOffice_5.1.4_MacOS_x86-64_langpack_ja.dmg'
   homepage 'http://ja.libreoffice.org/'
-  version '5.1.0'
-  sha256 'f264562c5715e84b3a3c8fbffd08af061b3de0fdddf871017cf356d5d60ee6fd'
+  version '5.1.4'
+  sha256 'db194b6f738616fa0466ced76920495b547dba5ec9dc3c6c56aa69f40e99b29f'
   caveats do
     puts 'open LibreOffice_ja_Language_Pack.app'
   end
