@@ -1,4 +1,4 @@
-cask 'kaku' do
+cask 'kaku-editor' do
   url 'http://ppmweb.lolipop.jp/download/Kaku1.3.8.dmg'
   homepage 'http://ppmweb.lolipop.jp/apps/kaku/'
   version '1.3.8'
