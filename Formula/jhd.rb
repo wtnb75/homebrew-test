@@ -1,7 +1,7 @@
 require "formula"
 
 class Jhd < Formula
-  #url "http://ftp.freebsd.org/pub/FreeBSD/ports/distfiles/jhd-2.3.tar.gz"
+  #url "http://distcache.freebsd.org/ports-distfiles/jhd-2.3.tar.gz"
   url "http://pub.foc.jp/archives/slackware-alteration/sources/jhd-2.3.tar.gz"
   sha256 "2d66d22e4de169d37cadcb972209cf80f0301412d56089a97ecd6f81eb2da478"
 
