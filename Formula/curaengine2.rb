@@ -9,7 +9,7 @@ class Curaengine2 < Formula
   depends_on "cmake" => :build
 
   def install
-    system "/usr/local/bin/cmake", "-DCMAKE_INSTALL_PREFIX=/usr/local/Cellar/curaengine2/2.1.3", "."
+    system "/usr/local/bin/cmake", "-DCMAKE_INSTALL_PREFIX=/usr/local/Cellar/curaengine2/2.3.0", "."
     system "make"
     system "make", "install"
   end
