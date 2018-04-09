@@ -1,7 +1,12 @@
 require "formula"
 
-class Gendiff < ScriptFileFormula
-  url "http://rpm.org/gitweb?p=rpm.git;a=blob_plain;hb=refs/heads/rpm-4.11.x;f=scripts/gendiff", :using => :curl
-  sha256 "f70c5834023253c85009f2f9e1374ddad946a035425342646b42c14b7b7e4106"
-  version "4.11"
+class Gendiff < Formula
+  version "4.14.0"
+  url "https://raw.githubusercontent.com/rpm-software-management/rpm/rpm-#{version}-release/scripts/gendiff"
+  sha256 "60a202b6462994e770623593e8903ba9e6ab5b9abc1a5b32e088a6f44ecb0982"
+  head "https://github.com/rpm-software-management/rpm.git", :branch => "dev"
+
+  def install
+    bin.install "gendiff" => "gendiff"
+  end
 end
