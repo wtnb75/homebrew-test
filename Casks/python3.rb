@@ -1,4 +1,4 @@
-class Python3 < Cask
+cask "python3" do
   url 'http://www.python.org/ftp/python/3.3.5/python-3.3.5-macosx10.6.dmg'
   homepage 'http://www.python.org/'
   version '3.3.5'

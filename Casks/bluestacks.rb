@@ -1,4 +1,4 @@
-class Bluestacks < Cask
+cask 'bluestacks' do
   url 'http://cdn.bluestacks.com/public/mac-beta/BlueStacks_AppPlayer-Beta.dmg'
   homepage 'http://www.bluestacks.com/'
   version 'Beta'
