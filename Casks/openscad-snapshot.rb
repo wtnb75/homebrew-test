@@ -1,5 +1,5 @@
 cask 'openscad-snapshot' do
-  version '2017.08.03'
+  version '2018.03.17'
   sha256 'd4d361c673683cda3195d4c84696020023c56c4db46d4a5efff0ab5d4922d55f'
 
   url "http://files.openscad.org/snapshots/OpenSCAD-#{version}.dmg"
