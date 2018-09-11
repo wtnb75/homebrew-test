@@ -6,7 +6,7 @@ class Jhd < Formula
   sha256 "2d66d22e4de169d37cadcb972209cf80f0301412d56089a97ecd6f81eb2da478"
 
   def patches
-    { :p0 => DATA }
+    { :p0 => :DATA }
   end
   def install
     system "mkdir", "-p", "#{prefix}/bin"
