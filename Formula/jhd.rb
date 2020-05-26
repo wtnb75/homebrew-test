@@ -5,8 +5,9 @@ class Jhd < Formula
   url "http://pub.foc.jp/archives/slackware-alteration/sources/jhd-2.3.tar.gz"
   sha256 "2d66d22e4de169d37cadcb972209cf80f0301412d56089a97ecd6f81eb2da478"
 
-  def patches
-    { :p0 => :DATA }
+  patch :p0 do
+    url "https://gist.githubusercontent.com/wtnb75/ba38dc724b836b189f0f7493ffeb88d7/raw/8a61e4f62626bac63761008a447202ad81f767f6/jhd-mac.patch"
+    sha256 "7ab4555e2b0390b9dceb29976cdff688d4ec0d652f217943e9c01a87d7543628"
   end
   def install
     system "mkdir", "-p", "#{prefix}/bin"
