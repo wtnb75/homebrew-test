@@ -1,9 +1,9 @@
 cask 'openscad-snapshot' do
-  version '2019.05'
-  sha256 'df6f6f3d34ac0d07f533ec4ccf59082189fb37c0276c1b8df651291e2509420e'
+  version '2020.08.30'
+  sha256 'f74efbf3cddd596d4387a718b0d0cea4e43aa48fe7d3b132084215d04cda8b03'
 
-  #url "http://files.openscad.org/snapshots/OpenSCAD-#{version}.dmg"
-  url "https://files.openscad.org/OpenSCAD-#{version}.dmg"
+  url "https://files.openscad.org/snapshots/OpenSCAD-#{version}.dmg"
+  #url "https://files.openscad.org/OpenSCAD-#{version}.dmg"
   name 'OpenSCAD'
   homepage 'http://www.openscad.org/'
 
